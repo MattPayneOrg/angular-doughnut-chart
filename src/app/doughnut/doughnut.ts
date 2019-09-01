@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 export class DoughnutChartComponent {
   // Doughnut
   public doughnutChartLabels: string[] = ['Age 18 to 24', 'Age 25 to 35', 'Above 35+'];
-  public demodoughnutChartData: number[] = [
+  public demodoughnutChartData: number[][] = [
     [350, 450, 100],
     [50, 150, 300],
     [250, 350, 150]
